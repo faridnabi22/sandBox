@@ -1,0 +1,51 @@
+
+
+
+@media (max-width: 576px) {
+  h1.display-4 {
+    font-size: 2rem;
+    
+  }
+}
+
+@media (max-width: 1000px) {
+  header .box {
+    flex-direction: row !important;
+  }
+
+  header ul.d-md-flex {
+    display: none !important;
+  }
+}
+
+@media (max-width: 2000px) {
+ .section1{
+  ul{
+    li{
+      a{
+        color: rgb(0, 0, 0);
+        transition: 0.3s;
+        
+
+        &:hover{
+          color: #FAB757;
+        }
+      }
+    }
+  }
+  .d-flex.gap-4 {
+      a {
+        color: rgb(0, 0, 0);
+        transition: color 0.3s;
+
+        &:hover {
+          color: #FAB757;
+        }
+      }
+    }
+ }
+
+}
+
+
+
